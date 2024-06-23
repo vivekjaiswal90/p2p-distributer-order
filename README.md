@@ -25,7 +25,7 @@ Find both `client` and `workers` under `/bin`.
  - start two grapes  `grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002'` &&  `grape --dp 20002 --aph 40001 --bn '127.0.0.1:20001'`
  - Run submit order worker with `node bin/submitOrderWorker.js`
  - Run process order worker with `node bin/processOrderWorker.js`
- - Run x number of clients with `node bin/client.js`
+ - Run x number of clients with `node bin/client.js clientId=client1 type=Buy amount=10 price=100`
 
 Find reusable code under `/lib`.
 
